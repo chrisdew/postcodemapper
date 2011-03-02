@@ -1,7 +1,7 @@
 div.plans {
 	margin-left: auto;
 	margin-right: auto;
-	width: 960px;
+	width: 900px;
 }
 
 ul.plans {
@@ -17,17 +17,43 @@ ul.plans li {
 
 ul.plans li a {
   width: 150px;
-  margin: 10px;
-  background: #070;
+  margin: 20px;
   /*border: 1px solid #999;*/
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   border-radius: 10px;
+  -moz-box-shadow: 10px 10px 10px #ccc;
+  -webkit-box-shadow: 10px 10px 10px #ccc;
+  box-shadow: 10px 10px 10px #ccc;
   display: block;
   padding: 10px;
+  padding-top: 20px;
   text-decoration: none;
   behavior: url(pie/PIE.htc);
+  text-align: center;
+  font-size: 24px;
+  color: #ddd;
 }
+a:hover {
+    color: #fff;
+}
+p.click {
+	font-size: 12px;
+	padding-top: 15px;
+}
+a.free_plan {
+  background: #770;
+}
+a.standard_plan {
+  background: #070;
+}
+a.api_plan {
+  background: #007
+}
+a.dedicated_plan {
+  background: #700;
+}
+
 ul.plans li a p {
   margin: 10px;
 }
